@@ -1,0 +1,15 @@
+gradio>=4.0.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+openpyxl>=3.1.0
+seaborn>=0.12.0
+
+# Optional - only needed for OpenAI-assisted question routing in the
+# "AI Dataset Chat" tab. The app works fully without it (rule-based
+# pandas parser handles common questions on its own).
+openai>=1.0.0
+
+# Optional - lets you keep OPENAI_API_KEY in a local .env file instead
+# of exporting it manually every session. The app works fine without
+# it too (just set the environment variable yourself).
+python-dotenv>=1.0.0
